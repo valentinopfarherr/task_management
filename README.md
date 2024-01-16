@@ -1,0 +1,26 @@
+# Sistema de Gestión de Tareas
+
+Este proyecto es un Sistema de Gestión de Tareas simple desarrollado en Java utilizando una base de datos SQLite para el almacenamiento de usuarios y tareas. La aplicación permite a los usuarios agregar nuevas tareas, actualizar el estado de las tareas (resuelto o no resuelto) y visualizar las tareas pendientes.
+
+## Requisitos
+
+- Java 8 o superior
+- Eclipse IDE (u otro entorno de desarrollo Java)
+
+## Configuración de la Base de Datos
+
+La aplicación utiliza una base de datos SQLite para almacenar información sobre usuarios y tareas. Asegúrate de tener el controlador JDBC de SQLite correctamente configurado en tu proyecto. Puedes descargarlo desde [SQLite JDBC](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
+
+La URL de conexión a la base de datos se encuentra en la clase `conexion.ConexionBD`. Ajusta la URL según tu configuración.
+
+## Ejecución
+
+1. Clona este repositorio o descarga el código fuente.
+2. Abre el proyecto en Eclipse o tu entorno de desarrollo Java preferido.
+3. Configura el controlador JDBC de SQLite en tu Build Path.
+4. Ejecuta la clase `AppLauncher` para iniciar la aplicación.
+
+## Funcionalidades
+
+- **Agregar Tarea:** Permite a los usuarios agregar nuevas tareas proporcionando el ID de usuario y una descripción.
+- **Visualizar Tareas:** Permite a los usuarios visualizar las tareas pendientes proporcionando el ID de usuario.
