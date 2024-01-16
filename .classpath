@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/valo1/Desktop/jar_files/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/valo1/Desktop/jar_files/sqlite-jdbc-3.44.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
