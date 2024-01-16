@@ -23,4 +23,12 @@ La URL de conexión a la base de datos se encuentra en la clase `conexion.Conexi
 ## Funcionalidades
 
 - **Agregar Tarea:** Permite a los usuarios agregar nuevas tareas proporcionando el ID de usuario y una descripción.
-- **Visualizar Tareas:** Permite a los usuarios visualizar las tareas pendientes proporcionando el ID de usuario.
+- **Actualizar Estado de Tarea:** Permite a los usuarios actualizar el estado de las tareas a "Resuelto" o "No Resuelto".
+- **Visualizar Tareas Pendientes:** Permite a los usuarios visualizar las tareas pendientes proporcionando el ID de usuario.
+
+## Uso
+
+1. Inicia sesión.
+2. Crea nuevas tareas.
+3. Actualiza el estado de las tareas según sea necesario.
+4. Visualiza las tareas pendientes.
