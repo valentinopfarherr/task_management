@@ -9,7 +9,7 @@ Este proyecto es un Sistema de Gestión de Tareas simple desarrollado en Java ut
 
 ## Configuración de la Base de Datos
 
-La aplicación utiliza una base de datos SQLite para almacenar información sobre usuarios y tareas. Asegúrate de tener el controlador JDBC de SQLite correctamente configurado en tu proyecto. Puedes descargarlo desde [SQLite JDBC](https://bitbucket.org/xerial/sqlite-jdbc/downloads/).
+La aplicación utiliza una base de datos SQLite para almacenar información sobre usuarios y tareas. Asegúrate de tener el controlador JDBC de SQLite correctamente configurado en tu proyecto.
 
 La URL de conexión a la base de datos se encuentra en la clase `conexion.ConexionBD`. Ajusta la URL según tu configuración.
 
